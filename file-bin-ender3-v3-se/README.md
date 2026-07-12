@@ -3,3 +3,4 @@ cách tự lấy file bin
 ```ini
 cd ~/klipper
 ```
+![alt text](image.png)
