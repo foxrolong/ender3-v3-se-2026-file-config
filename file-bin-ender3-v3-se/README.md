@@ -1,4 +1,4 @@
-<div style="center">
+<div style="text-align center">
 <h1>cách tự lấy file bin</h1>
 </div>
 ### Start mở cmd nhập lệnh sau:
