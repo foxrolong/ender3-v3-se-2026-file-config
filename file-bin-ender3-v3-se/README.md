@@ -4,7 +4,7 @@
 cd ~/klipper
 ```
 <div align="center">
-  <img src="image.png" width="500"/>
+  <img src="../file-bin-ender3-v3-se/image/image.png" width="500"/>
 </div>
 
 ---
@@ -16,7 +16,7 @@ make menuconfig
 ### [ chọn Q lưu lại cấu hình lại ]
 
 <div align="center">
-  <img src="image-1.png" width="500"/>
+  <img src="../file-bin-ender3-v3-se/image/image-1.png" width="500"/>
 </div>
 
 ---
@@ -28,16 +28,11 @@ make
 ---
 ### BƯỚC 4: copy file bin vào thể nhớ
 ```ini
-<<<<<<< HEAD
 "file bin nằm ở đây" /home/long/klipper/out/klipper.bin
-=======
-/home/long/klipper/out/klipper.bin
->>>>>>> f584edc (md)
 ```
-![alt text](image-2.png)
 
 <div align="center">
-  <img src="image-2.jpg" width="500"/>
+  <img src="../file-bin-ender3-v3-se/image/image-2.jpg" width="500"/>
 </div>
 
 ```ini
@@ -50,20 +45,20 @@ hãy tạo file này trong thẻ SD của bạn: "STM32F4_UPDATE"
 ### BƯỚC 5 nạp file bin vào máy Ender3 v3 se.
 
 <div align="center">
-  <img src="images4.jpg" width="300"/>
+  <img src="../file-bin-ender3-v3-se/image/images4.jpg" width="300"/>
 </div>
 <div align="center" style="font-size: 15px; font-weight: bold; white-space: nowrap;"> cắm thẻ nhớ vào máy </div>
 
 
 <div align="center">
-  <div align="center"><img src="image1.png" width="300"/></div>
+  <div align="center"><img src="../file-bin-ender3-v3-se/image/image1.png" width="300"/></div>
 </div>
 <div align="center" style="font-size: 15px; font-weight: bold; white-space: nowrap;"> Tắt máy đi bật lại </div>
 
 ---
 
 ### BƯỚC 6 Nhận biết nạp thành công
-<div align="center"><img src="IMG_9736.png" width="300"/></div>
+<div align="center"><img src="../file-bin-ender3-v3-se/image/IMG_9736.png" width="300"/></div>
 <div align="center" style="font-size: 15px; font-weight: bold; white-space: nowrap;"> màn hình hiện lên giữ nguyên như này là được </div><br>
 
 <p>Kiểm tra thêm bằng cách lấy thẻ sd sau khi nạp xong, cắm vào máy tính kiểm tra tên file đã đổi trước đó VD: <a>"update.bin"</a> tự đổi về <a>klipper.bin</a> là thành công </p>
