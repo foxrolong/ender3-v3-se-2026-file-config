@@ -9,6 +9,7 @@ lưu ý - mã máy cho cài đặt sau này
 cách thiết lập cài đặt
 lưu ý trước khi làm:
 nếu dùng Raspberry Pi mọi người nên tham khảo Kiauh: https://github.com/dw-0/kiauh.git
+
 BƯỚC 1:
 
 Thiết lập Raspberry Pi
