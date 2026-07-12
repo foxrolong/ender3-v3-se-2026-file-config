@@ -1,4 +1,6 @@
-cách tự lấy file bin
+<div style="center">
+<h1>cách tự lấy file bin</h1>
+</div>
 ### Start mở cmd nhập lệnh sau:
 
 ```ini
