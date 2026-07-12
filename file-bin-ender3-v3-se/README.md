@@ -28,8 +28,13 @@ make
 ---
 ### BƯỚC 4: copy file bin vào thể nhớ
 ```ini
+<<<<<<< HEAD
 "file bin nằm ở đây" /home/long/klipper/out/klipper.bin
+=======
+/home/long/klipper/out/klipper.bin
+>>>>>>> f584edc (md)
 ```
+![alt text](image-2.png)
 
 <div align="center">
   <img src="image-2.jpg" width="500"/>
