@@ -1,4 +1,4 @@
-Hướng dãn cách cài kliper Ender 3 V3 SE
+FOXRO 5.0.0 - Hướng dẫn cài Klipper Ender 3 V3 SE
 
 về main board máy in của tôi:
 Ender 3 V3 SE
@@ -8,13 +8,13 @@ lưu ý - mã máy cho cài đặt sau này
 
 cách thiết lập cài đặt
 lưu ý trước khi làm:
-nếu dùng Raspberry Pi mọi người nên tham khảo Kiauh: https://github.com/dw-0/kiauh.git
+nếu dùng Raspberry Pi mọi người nên dùng bản FOXRO KIAUH riêng của bạn thay cho bản gốc: <YOUR_FORK_URL>
 
 BƯỚC 1:
 
 Thiết lập Raspberry Pi
-KIAUH
-Các bước cài đặt KIAUH
+FOXRO KIAUH
+Các bước cài đặt FOXRO KIAUH
 Cài đặt Klipper và các gói cần thiết
 Cài đặt Klipper
 Cài đặt Moonraker
@@ -63,24 +63,24 @@ Nhấp nháy thẻ nhớ microSD
 Cắm thẻ nhớ microSD vào Raspberry Pi của bạn
 Kết nối nguồn điện
 Kết nối SSH vào Raspberry Pi của bạn
-KIAUHLiên kết thường trực
-Sau khi thiết lập xong Raspberry Pi và kết nối SSH, bạn có thể tiến hành tải xuống và cài đặt KIAUH Đây là một đoạn mã cung cấp cách dễ dàng để cài đặt Klipper và các tính năng khác mà chúng ta sẽ cần như Moonraker, Fluidd hoặc Mainsail.
+FOXRO KIAUH Liên kết thường trực
+Sau khi thiết lập xong Raspberry Pi và kết nối SSH, bạn có thể tiến hành tải xuống và cài đặt FOXRO KIAUH. Đây là bản fork riêng để cài đặt Klipper và các thành phần cần thiết như Moonraker, Fluidd hoặc Mainsail.
 
-Các bước cài đặt KIAUHLiên kết thường trực
-Điều kiện tiên quyết để cài đặt KIAUH là phải cài đặt Git. Nếu bạn chưa cài đặt nó (hoặc nếu không chắc chắn), hãy chạy lệnh sau:
+Các bước cài đặt FOXRO KIAUH Liên kết thường trực
+Điều kiện tiên quyết để cài đặt FOXRO KIAUH là phải cài đặt Git. Nếu bạn chưa cài đặt nó (hoặc nếu không chắc chắn), hãy chạy lệnh sau:
 
 Sao chép mãsudo apt-get update && sudo apt-get install git -y
-Sau khi cài đặt Git, hãy chạy lệnh sau để sao chép KIAUH vào thư mục chính của bạn:
+Sau khi cài đặt Git, hãy chạy lệnh sau để sao chép FOXRO KIAUH vào thư mục chính của bạn:
 
-Sao chép mãcd ~ && git clone https://github.com/dw-0/kiauh.git
-Sau khi sao chép thành công, hãy chạy KIAUH bằng lệnh sau:
+Sao chép mãcd ~ && git clone <YOUR_FORK_URL> kiauh
+Sau khi sao chép thành công, hãy chạy FOXRO KIAUH bằng lệnh sau:
 
 Sao chép mã./kiauh/kiauh.sh
 Cài đặt Klipper và các gói cần thiếtLiên kết thường trực
-Giờ bạn sẽ thấy một màn hình tương tự như hình bên dưới, đó là menu chính của KIAUH, từ đó chúng ta sẽ cài đặt các gói cần thiết để chạy Klipper.
+Giờ bạn sẽ thấy một màn hình tương tự như hình bên dưới, đó là menu chính của FOXRO KIAUH, từ đó chúng ta sẽ cài đặt các gói cần thiết để chạy Klipper.
 
-Ảnh chụp màn hình menu chính của KIAUH
-Menu chính của KIAUH
+Ảnh chụp màn hình menu chính của FOXRO KIAUH
+Menu chính của FOXRO KIAUH
 Các gói cần thiết để cài đặt sẽ là:
 
 Klipper
@@ -89,14 +89,14 @@ Buồm mềm hoặc buồm chính
 Cài đặt KlipperLiên kết thường trực
 Để cài đặt từng gói, chúng ta phải nhập: 1 (để cài đặt) và nhấn Enter, thao tác này sẽ đưa chúng ta đến màn hình sau:
 
-Ảnh chụp màn hình menu cài đặt KIAUH
-Menu cài đặt KIAUH
+Ảnh chụp màn hình menu cài đặt FOXRO KIAUH
+Menu cài đặt FOXRO KIAUH
 Bây giờ chúng ta phải gõ: 1 (cho Klipper) và nhấn Enter một lần nữa. Sau đó, hãy làm theo bất kỳ hướng dẫn nào xuất hiện để hoàn tất quá trình cài đặt.
 
 Cài đặt MoonrakerLiên kết thường trực
 Để cài đặt Moonraker, chúng ta phải lặp lại các bước ở trên nhưng chọn Moonraker ở màn hình thứ hai. Các bước sẽ như sau:
 
-Chạy KIAUH hoặc vào Menu chính nếu đang chạy
+Chạy FOXRO KIAUH hoặc vào Menu chính nếu đang chạy
 Nhập “1” (không có dấu ngoặc kép) và nhấn Enter
 Nhập “2” (không có dấu ngoặc kép) và nhấn Enter
 Hãy làm theo hướng dẫn để cài đặt
@@ -105,7 +105,7 @@ Fluidd và Cánh buồm chính Đây là giao diện người dùng của Klippe
 
 Để cài đặt một trong số chúng, chúng ta phải lặp lại các bước ở trên nhưng chọn tùy chọn của mình ở màn hình thứ hai. Các bước sẽ như sau:
 
-Chạy KIAUH hoặc vào Menu chính nếu đang chạy
+Chạy FOXRO KIAUH hoặc vào Menu chính nếu đang chạy
 Nhập “1” (không có dấu ngoặc kép) và nhấn Enter
 Nhập “3” HOẶC “4” (không có dấu ngoặc kép) và nhấn Enter
 Hãy làm theo hướng dẫn để cài đặt
